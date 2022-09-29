@@ -56,5 +56,5 @@ int main()
     }
     cout<<pas<<l<<endl;
     
-    return 0
+    return 0;
 }

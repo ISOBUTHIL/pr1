@@ -20,7 +20,7 @@ int main()
     for(int i=0;i<siz;i++){
         int random=rand()%2;
         if(random==1){
-            int ans=rand()%27
+            int ans=rand()%27;
             acc+=up[ans];
         }else if(random==0){
             int ans=rand()%27

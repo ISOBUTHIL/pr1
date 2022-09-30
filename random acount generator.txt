@@ -23,7 +23,7 @@ int main()
             int ans=rand()%27;
             acc+=up[ans];
         }else if(random==0){
-            int ans=rand()%27
+            int ans=rand()%27;
             acc+=low[ans]
         }
     }

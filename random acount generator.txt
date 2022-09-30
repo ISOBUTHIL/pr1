@@ -21,7 +21,7 @@ int main()
         int random=rand()%2;
         if(random==1){
             int ans=rand()%27
-            acc+=up[ans]
+            acc+=up[ans];
         }else if(random==0){
             int ans=rand()%27
             acc+=low[ans]

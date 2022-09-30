@@ -1,22 +1,22 @@
 #include <bits/stdc++.h>
 
-using namespace std;
+using namespace std
 int main()
 {
-    srand(time(0));
-    int l=rand()*4;
-    srand(time(0));
-    string up[26]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z" };
-    string low[26]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z" };
-    int siz;
-    int k=rand();
-    string krand="";
-    stringstream ss;
-    ss<<k;
-    ss>>krand;
-    string acc="";
-    cin>>siz;
-    srand(time(0));
+    srand(time(0))
+    int l=rand()*4
+    srand(time(0))
+    string up[26]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z" }
+    string low[26]{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z" }
+    int siz
+    int k=rand()
+    string krand=""
+    stringstream ss
+    ss<<k
+    ss>>krand
+    string acc=""
+    cin>>siz
+    srand(time(0))
     for(int i=0;i<siz;i++){
         int random=rand()%2;
         if(random==1){

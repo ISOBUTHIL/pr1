@@ -3,7 +3,7 @@
 using namespace std
 int main()
 {
-    srand(time(0))
+    srand(time(0));
     int l=rand()*4
     srand(time(0))
     string up[26]{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z" }

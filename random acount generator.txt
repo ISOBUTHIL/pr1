@@ -11,7 +11,7 @@ int main()
     int siz;
     int k=rand();
     string krand="";
-    stringstream ss
+    stringstream ss;
     ss<<k
     ss>>krand
     string acc=""

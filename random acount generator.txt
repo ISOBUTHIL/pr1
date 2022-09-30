@@ -50,7 +50,7 @@ int main()
             int ans=rand()%27;
             pas+=up[ans];
         }else if(random==0){
-            int ans=rand()%27
+            int ans=rand()%27;
             pas+=low[ans];
         }
     }

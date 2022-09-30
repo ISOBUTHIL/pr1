@@ -29,7 +29,7 @@ int main()
     }
     int mail;
     cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail "
-    cin>>mail
+    cin>>mail;
     switch(mail){
         case 1:
             cout<<acc+krand+"@gmail.com"<<endl;

@@ -24,7 +24,7 @@ int main()
             acc+=up[ans];
         }else if(random==0){
             int ans=rand()%27
-            acc+=low[ans]
+            acc+=low[ans];
         }
     }
     int mail

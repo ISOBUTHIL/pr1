@@ -27,7 +27,7 @@ int main()
             acc+=low[ans];
         }
     }
-    int mail
+    int mail;
     cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail "
     cin>>mail
     switch(mail){

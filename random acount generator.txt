@@ -20,16 +20,16 @@ int main()
     for(int i=0;i<siz;i++){
         int random=rand()%2;
         if(random==1){
-            int ans=rand()%27;
-            acc+=up[ans];
+            int ans=rand()%27
+            acc+=up[ans]
         }else if(random==0){
-            int ans=rand()%27;
-            acc+=low[ans];
+            int ans=rand()%27
+            acc+=low[ans]
         }
     }
-    int mail;
-    cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail ";
-    cin>>mail;
+    int mail
+    cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail "
+    cin>>mail
     switch(mail){
         case 1:
             cout<<acc+krand+"@gmail.com"<<endl;

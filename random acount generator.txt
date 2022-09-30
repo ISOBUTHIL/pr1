@@ -15,7 +15,7 @@ int main()
     ss<<k;
     ss>>krand;
     string acc="";
-    cin>>siz
+    cin>>siz;
     srand(time(0))
     for(int i=0;i<siz;i++){
         int random=rand()%2

@@ -12,7 +12,7 @@ int main()
     int k=rand();
     string krand="";
     stringstream ss;
-    ss<<k
+    ss<<k;
     ss>>krand
     string acc=""
     cin>>siz

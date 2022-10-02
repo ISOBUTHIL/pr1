@@ -63,4 +63,3 @@ string NewPassword(string a){
     for(char i='a';i<amount;i++{
         
     }
-

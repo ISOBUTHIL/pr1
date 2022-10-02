@@ -60,4 +60,4 @@ int main()
 }
 string NewPassword(string a){
     cin>>amount;
-    for(char i='a';i<amount;i++
+    for

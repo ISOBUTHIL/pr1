@@ -54,7 +54,7 @@ int main()
             pas+=low[ans];
         }
     }
-    cout<<pas<<l<<endl
+    cout<<pas<<l<<endl;
     
-    return 0
+    return 0;
 }

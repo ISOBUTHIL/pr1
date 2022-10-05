@@ -28,14 +28,14 @@ int main()
         }
     }
     int mail;
-    cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail ";;
+    cout<<"Choose mail: 1-Gmail, 2-yandex, 3 and other-personal mail ";
     cin>>mail;
     switch(mail){
         case 1:
-            cout<<acc+krand+"@gmail.com"<<endl;;
+            cout<<acc+krand+"@gmail.com"<<endl;
             break;
         case 2:
-            cout<<acc+krand+"@yandex.ru"<<endl;;
+            cout<<acc+krand+"@yandex.ru"<<endl;
             break;
         default:
             string ma;
@@ -54,7 +54,7 @@ int main()
             pas+=low[ans];
         }
     }
-    cout<<pas<<l<<endl;
+    cout<<pas<<l<<endl
     
-    return 0;
+    return 0
 }

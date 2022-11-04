@@ -16,7 +16,6 @@ int main()
     ss>>krand;
     string acc="";
     cin>>siz;
-    srand(time(0));
     for(int i=0;i<siz;i++){
         int random=rand()%2;
         if(random==1){
@@ -55,6 +54,5 @@ int main()
         }
     }
     cout<<pas<<l<<endl;
-    
     return 0;
 }

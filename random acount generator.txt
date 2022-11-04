@@ -43,7 +43,7 @@ int main()
     string pas="";
     for(int i=0;i<siz;i++){
         srand(time(0));
-        int random=rand()%2;;
+        int random=rand()%2;
         if(random==1){
             int ans=rand()%27;
             pas+=up[ans];

@@ -45,7 +45,7 @@ int main()
         srand(time(0));
         int random=rand()%2;
         if(random==1){
-            int ans=rand()%27
+            int ans=rand()%27;
             pas+=up[ans];
         }else if(random==0){
             int ans=rand()%27;
